@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Background Image */
+.background-image {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+/* Login Container */
+.login-box {
+    height: 400px;
+    width: 420px;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    backdrop-filter: blur(9px);
+    border: 1px solid white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+    border-radius: 15px;
+}
+
+/* Username and password Input Field */
+.input {
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input input {
+    width: 330px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    background: transparent;
+
+}
+
+.input input::placeholder {
+    color: white;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    /* border: 2px solid red; */
+    position: relative;
+    right: 50px;
+}
+
+/* Remember me and Forget Password Section */
+.forget-password {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    color: white;
+}
+
+.forget-password a {
+    text-decoration: none;
+    color: white;
+}
+
+/* login button */
+.login-button {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button input {
+    height: 45px;
+    width: 80%;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Register Link */
+.register {
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: White;
+}
+
+.register p a {
+    text-decoration: none;
+    color: white;
+}
